@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 800px;
+}
+aside h2{
+    position: absolute;
+    top: 47px;
+    bottom: 150px;
+}
+aside{
+    width: 200rem;
+    position: relative;
+}
+aside image{
+    width: 200px;
+    height: auto;
+}
+main image{
+    width: 150px;
+    height: auto;
+}
+p{
+    padding: 0;
+}
+footer{
+    margin-top: 20px;
+    border-top: 5px brown;
+    text-align: center;
+}
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: brown;
+    color: black;
+}
