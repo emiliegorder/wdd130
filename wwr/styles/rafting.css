@@ -1,0 +1,40 @@
+@import url(https://fonts.google.com/specimen/Agbalumo?query=ag);
+@import url(https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab);
+:root{
+    --heading-font: 'Agbalumo';
+    --standard-font: 'Robot Slab';
+
+    --primary-color: #0A3B55;
+    --secondary-color: #715538;
+    --accent-primary-color: #196AB1;
+    --accent-secondary-color: #B79346;
+}
+header{
+    background-color: var(--secondary-color);
+    font: var(--standard-font);
+    color: var(--primary-color);
+}
+h1{
+    font: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+}
+h2{
+    font: var(--heading-font);
+    color: var(--primary-color);
+}
+p{
+    font: var(--standard-font);
+    color: var(--primary-color);
+}
+link{
+    text-decoration: none;
+}
+article{
+    position: absolute;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
